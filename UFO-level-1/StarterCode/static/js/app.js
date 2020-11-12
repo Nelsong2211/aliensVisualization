@@ -93,5 +93,5 @@ var form = d3.select("#filters");
 button.on("click", runEnter);
 form.on("submit",runEnter);
 
-// display all the data
+// display all the data before the first filter.
 updateData(tableData);
