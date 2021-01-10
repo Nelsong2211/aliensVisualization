@@ -8,11 +8,6 @@ var tbody = d3.select("tbody");
 // Console.log the weather data from data.js
 console.log(data);
 
-// function removeData(){
-//     d3.select("tbody")
-//         .selectAll("tr").remove()
-//         .selectAll("td").remove();
-// };
 
 
 // function to filter the data
