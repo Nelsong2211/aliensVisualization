@@ -24,9 +24,6 @@ function updateData(filterData){
             cell.text(value);
             });
         });
-
-
-
     
 };
 
@@ -44,7 +41,6 @@ var form = d3.select("#filters");
 // Create event handlers 
 button.on("click", runEnter);
 form.on("submit",runEnter);
-
 
 
 
